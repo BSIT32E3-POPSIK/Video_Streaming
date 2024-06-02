@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VSCODES!!!\\VideoStreaming\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\github\\Video_Streaming\\VideoStreaming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\video_streaming.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\video_streaming.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +55,95 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Video_Streaming",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+              "RelativeDocumentMoniker": "Video_Streaming\\Video_Streaming.csproj",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+              "RelativeToolTip": "Video_Streaming\\Video_Streaming.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-02T18:46:07.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Video_Streaming\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Video_Streaming\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-02T18:44:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "Video_Streaming\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "Video_Streaming\\wwwroot\\css\\login.css",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAkwJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-02T18:45:12.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Video_Streaming\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Video_Streaming\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T18:44:08.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Video_Streaming\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Video_Streaming\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T18:42:54.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Video_Streaming\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Video_Streaming\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T18:30:40.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Video_Streaming\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Video_Streaming\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T18:29:10.844Z",
+              "EditorCaption": ""
             }
           ]
         }

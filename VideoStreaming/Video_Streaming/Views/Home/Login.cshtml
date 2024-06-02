@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+    <script>
+        function navigateToMain() {
+            window.location.href = '@Url.Action("Main", "Home")';
+        }
+    </script>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="~/imgs/VIXENN.png" alt="Logo">
+    </div>
+
+    <div class="box">
+        <form>
+            <div class="title">
+                <h1>Sign In</h1>
+            </div>
+            <div class="input-box">
+                <label for="text" class="label-color">Username</label>
+                <input id="text"
+                       name="text"
+                       type="text"
+                       placeholder="Username"
+                       required />
+                <br />
+                <label for="password" class="label-color">Password</label>
+                <input id="password"
+                       name="password"
+                       type="password"
+                       placeholder="Password"
+                       required />
+                <br />
+                <input type="submit" class="Signin" value="Sign In" />
+                <br />
+                <p class="link-text">
+                    New to Vixen? @Html.ActionLink("Register Here", "Register", "Home")
+                </p>
+            </div>
+        </form>
+    </div>
+    <div>
+        <button type="button" class="simple-button" onclick="navigateToMain()">TEST</button>
+    </div>
+</body>
+</html>
+
