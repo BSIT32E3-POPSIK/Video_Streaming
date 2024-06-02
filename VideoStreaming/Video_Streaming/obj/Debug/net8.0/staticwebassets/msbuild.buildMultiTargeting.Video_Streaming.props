@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Video_Streaming.props" />
+</Project>

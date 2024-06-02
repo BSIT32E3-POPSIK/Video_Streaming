@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSCODES!!!\\Video_Streaming\\Video_Streaming\\Video_Streaming.csproj": {}
+    "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {}
   },
   "projects": {
-    "D:\\VSCODES!!!\\Video_Streaming\\Video_Streaming\\Video_Streaming.csproj": {
+    "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSCODES!!!\\Video_Streaming\\Video_Streaming\\Video_Streaming.csproj",
+        "projectUniqueName": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
         "projectName": "Video_Streaming",
-        "projectPath": "D:\\VSCODES!!!\\Video_Streaming\\Video_Streaming\\Video_Streaming.csproj",
+        "projectPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
         "packagesPath": "C:\\Users\\cuteaq\\.nuget\\packages\\",
-        "outputPath": "D:\\VSCODES!!!\\Video_Streaming\\Video_Streaming\\obj\\",
+        "outputPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cuteaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
