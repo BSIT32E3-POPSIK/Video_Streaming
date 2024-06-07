@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\github\\Video_Streaming\\VideoStreaming\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|d:\\github\\video_streaming\\videostreaming\\video_streaming\\views\\home\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7098C32D-0DF2-48A7-9638-9AD794BE71EB}|Video_Streaming\\Video_Streaming.csproj|solutionrelative:video_streaming\\views\\home\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -67,6 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.css",
+              "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\Main.css",
+              "RelativeDocumentMoniker": "Video_Streaming\\wwwroot\\css\\Main.css",
+              "ToolTip": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\Main.css",
+              "RelativeToolTip": "Video_Streaming\\wwwroot\\css\\Main.css",
+              "ViewState": "AQIAACACAAAAAAAAAAAkwEkCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T14:05:53.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Main.cshtml",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Main.cshtml",
               "RelativeDocumentMoniker": "Video_Streaming\\Views\\Home\\Main.cshtml",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Video_Streaming",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
               "RelativeDocumentMoniker": "Video_Streaming\\Video_Streaming.csproj",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Video_Streaming\\wwwroot\\css\\site.css",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "login.css",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "Video_Streaming\\wwwroot\\css\\login.css",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Video_Streaming\\Controllers\\HomeController.cs",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Video_Streaming\\Views\\Home\\Login.cshtml",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Video_Streaming\\Views\\Shared\\_Layout.cshtml",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Video_Streaming\\Views\\Home\\Index.cshtml",
