@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/login.css" />
+</head>
+<body>
+    <div class="logo-container">
+        <img src="~/imgs/VIXENN.png" alt="Logo">
+    </div>
+
+    <div class="box">
+        <form>
+            <div class="input-box">
+                <label for="text" class="label-color">Username</label>
+                <input id="text"
+                       name="text"
+                       type="text"
+                       placeholder="Username"
+                       required />
+                <br />
+                <label for="password" class="label-color">Password</label>
+                <input id="password"
+                       name="password"
+                       type="password"
+                       placeholder="Password"
+                       required />
+                <br />
+                <label for="confirmpassword" class="label-color">Confirm Password</label>
+                <input id="password"
+                       name="confirmpassword"
+                       type="password"
+                       placeholder="Confirm Password"
+                       required />
+                <br />
+                <input type="submit" class="Register" value="Register" />
+                <br />
+                <p class="link-text">
+                    Already Registered? @Html.ActionLink("Sign In Here", "Login", "Home")
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
