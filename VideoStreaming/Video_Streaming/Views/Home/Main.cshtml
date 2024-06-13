@@ -1,7 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
     ViewBag.Title = "Main";
 }
 
@@ -16,7 +13,9 @@
 <body>
     <header class="navbar">
         <div class="logo-container">
-            <img src="~/imgs/VIXENN.png" alt="Logo">
+            <a href="@Url.Action("Main", "Home")">
+                <img src="~/imgs/VIXENN.png" alt="Logo">
+            </a>
         </div>
         <div class="navbar-brand"></div>
         <div class="input-wrapper">
@@ -41,24 +40,11 @@
             <input type="text" name="text" class="input" placeholder="search.." />
         </div>
         <nav class="navbar-menu">
-            <button type="button" class="btn2">
-                <strong>FAVORITES</strong>
-                <div id="container-stars">
-                    <div id="stars"></div>
-                </div>
-
-                <div id="glow">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
-            </button>
-
-            <button type="button" class="btn3">
+            <button type="button" class="btn3" id="profileButton">
                 <strong>PROFILE</strong>
                 <div id="container-stars1">
                     <div id="stars1"></div>
                 </div>
-
                 <div id="glow1">
                     <div class="circle1"></div>
                     <div class="circle1"></div>
@@ -72,8 +58,9 @@
             <div class="video-wrapper">
                 <iframe id="currentVideo" src="https://www.youtube.com/embed/vtpwM1KtWMA" frameborder="5" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <button id="favoriteButton">❤</button>
+            <button id="favoriteButton" data-video-id="vtpwM1KtWMA"> ❤ </button>
             <h2 id="videoTitle">Just The 3 Of Us</h2>
+
             <div class="description-dropdown">
                 <button1 id="descriptionButton">Description ↓</button1>
                 <div id="descriptionContent" class="description-content hidden">
@@ -81,54 +68,62 @@
                 </div>
             </div>
         </div>
-        <div class="thumbnail-gallery">
-            <div class="thumbnail" data-video-id="vtpwM1KtWMA">
-                <img src="~/imgs/thumbnail1.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="9o5wD6KdoF4">
-                <img src="~/imgs/thumbnail2.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="mgVbToNE9mE">
-                <img src="~/imgs/thumbnail3.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="9UNbFfSzaE8">
-                <img src="~/imgs/thumbnail4.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="uIdN3yCQLdM">
-                <img src="~/imgs/thumbnail5.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="2QwUESzFig0">
-                <img src="~/imgs/thumbnail6.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="Yo9emir5wbU">
-                <img src="~/imgs/thumbnail7.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="cit1mm96w30">
-                <img src="~/imgs/thumbnail8.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="NBL8xGp3vx0">
-                <img src="~/imgs/thumbnail9.png" alt="" />
-            </div>
-            <div class="thumbnail" data-video-id="lTwPhcFOutU">
-                <img src="~/imgs/thumbnail10.png" alt="" />
+        <h3 id="OtherFilm">[ All Movies ]</h3>
+        <div class="thumbnail-gallery-wrapper">
+            <div class="thumbnail-gallery">
+                <div class="thumbnail" data-video-id="vtpwM1KtWMA" data-title="Just The 3 Of Us" data-description="The film revolves around Uno Abusado and CJ Manalo who are both involved in the airline industry. The former is an airline pilot who aspires to be a captain and the latter is part of the ground crew who aspires to be a flight attendant. After a one night stand the two were forced to live together to deal with each others contrasting personalities with Manalo now pregnant and claiming that Abusado is the father of her unborn child.">
+                    <img src="~/imgs/tn1.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="9o5wD6KdoF4" data-title="Video Title 2" data-description="Description for video 2">
+                    <img src="~/imgs/tn2.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="mgVbToNE9mE" data-title="Video Title 3" data-description="Description for video 3">
+                    <img src="~/imgs/tn3.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="9UNbFfSzaE8" data-title="Video Title 4" data-description="Description for video 4">
+                    <img src="~/imgs/tn4.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="uIdN3yCQLdM" data-title="Video Title 5" data-description="Description for video 5">
+                    <img src="~/imgs/tn5.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="2QwUESzFig0" data-title="Video Title 6" data-description="Description for video 6">
+                    <img src="~/imgs/tn6.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="Yo9emir5wbU" data-title="Video Title 7" data-description="Description for video 7">
+                    <img src="~/imgs/tn7.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="cit1mm96w30" data-title="Video Title 8" data-description="Description for video 8">
+                    <img src="~/imgs/tn8.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="NBL8xGp3vx0" data-title="Video Title 9" data-description="Description for video 9">
+                    <img src="~/imgs/tn9.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="lTwPhcFOutU" data-title="Video Title 10" data-description="Description for video 10">
+                    <img src="~/imgs/tn10.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="Q3ptS7yXyZg" data-title="Video Title 11" data-description="Description for video 11">
+                    <img src="~/imgs/tn16.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="IitePykqDXI" data-title="Video Title 12" data-description="Description for video 12">
+                    <img src="~/imgs/tn14.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="8TO4h4oTOrU" data-title="Video Title 13" data-description="Description for video 13">
+                    <img src="~/imgs/tn13.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="j38NGNLlEUk" data-title="Video Title 14" data-description="Description for video 14">
+                    <img src="~/imgs/tn12.png" alt="" />
+                </div>
+                <div class="thumbnail" data-video-id="Df1dqWaC7c0" data-title="Video Title 15" data-description="Description for video 15">
+                    <img src="~/imgs/tn11.png" alt="" />
+                </div>
             </div>
         </div>
-    </div>
-
-    <div id="favoritesList" class="hidden">
-        <h2>Your Favorites</h2>
-        <!-- Favorites will be listed here -->
-    </div>
-    <div id="profileContent" class="hidden">
-        <h2>Your Profile</h2>
-        <!-- Profile content goes here -->
     </div>
 
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <script src="~/js/site.js"></script>
 </body>
 </html>
-
 
 
 
