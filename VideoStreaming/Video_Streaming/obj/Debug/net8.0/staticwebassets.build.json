@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5P8beYBjhFIiR4j7fYXg9HvBb30yrjHZ76hWe6vHyKM=",
+  "Hash": "6FShXqL6UXFhDoA4JHzdADIU2GsYpFjDcdZ+MUEcQp8=",
   "Source": "Video_Streaming",
   "BasePath": "_content/Video_Streaming",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
+    },
+    {
+      "Identity": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\register.css",
+      "SourceId": "Video_Streaming",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\",
+      "BasePath": "_content/Video_Streaming",
+      "RelativePath": "css/register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
       "Identity": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\site.css",
