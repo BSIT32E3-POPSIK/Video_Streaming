@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Video_Streaming")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7859361cafe4fa010b6ec8ad95c24d80f834839")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b67eb8119228f26b1ae2670b59d41db3c9b23346")]
 [assembly: System.Reflection.AssemblyProductAttribute("Video_Streaming")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Video_Streaming")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
