@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Video_Streaming.bundle.scp.css"
     },
     {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\Main.css",
+      "PackagePath": "staticwebassets\\css\\Main.css"
+    },
+    {
       "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -29,48 +33,84 @@
       "PackagePath": "staticwebassets\\imgs\\VIXENN.png"
     },
     {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\default.png",
+      "PackagePath": "staticwebassets\\imgs\\default.png"
+    },
+    {
       "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\heart.png",
       "PackagePath": "staticwebassets\\imgs\\heart.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail1.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail1.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\search.png",
+      "PackagePath": "staticwebassets\\imgs\\search.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail10.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail10.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn1.png",
+      "PackagePath": "staticwebassets\\imgs\\tn1.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail2.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail2.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn10.png",
+      "PackagePath": "staticwebassets\\imgs\\tn10.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail3.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail3.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn11.png",
+      "PackagePath": "staticwebassets\\imgs\\tn11.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail4.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail4.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn12.png",
+      "PackagePath": "staticwebassets\\imgs\\tn12.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail5.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail5.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn13.png",
+      "PackagePath": "staticwebassets\\imgs\\tn13.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail6.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail6.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn14.png",
+      "PackagePath": "staticwebassets\\imgs\\tn14.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail7.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail7.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn15.png",
+      "PackagePath": "staticwebassets\\imgs\\tn15.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail8.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail8.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn16.png",
+      "PackagePath": "staticwebassets\\imgs\\tn16.png"
     },
     {
-      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\thumbnail9.png",
-      "PackagePath": "staticwebassets\\imgs\\thumbnail9.png"
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn2.png",
+      "PackagePath": "staticwebassets\\imgs\\tn2.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn3.png",
+      "PackagePath": "staticwebassets\\imgs\\tn3.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn4.png",
+      "PackagePath": "staticwebassets\\imgs\\tn4.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn5.png",
+      "PackagePath": "staticwebassets\\imgs\\tn5.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn6.png",
+      "PackagePath": "staticwebassets\\imgs\\tn6.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn7.png",
+      "PackagePath": "staticwebassets\\imgs\\tn7.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn8.png",
+      "PackagePath": "staticwebassets\\imgs\\tn8.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\tn9.png",
+      "PackagePath": "staticwebassets\\imgs\\tn9.png"
+    },
+    {
+      "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\imgs\\upload.png",
+      "PackagePath": "staticwebassets\\imgs\\upload.png"
     },
     {
       "Id": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\wwwroot\\js\\site.js",
