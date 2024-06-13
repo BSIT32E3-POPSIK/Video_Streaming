@@ -37,6 +37,11 @@ namespace Video_Streaming.Controllers
             return View();
         }
 
+        public IActionResult ADMIN()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

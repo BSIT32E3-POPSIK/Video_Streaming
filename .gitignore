@@ -10,3 +10,8 @@ VideoStreaming/Video_Streaming/bin/Debug/net8.0/Video_Streaming.dll
 *.dll
 *.exe
 *.json
+*.json
+*.dll
+*.exe
+*.pdb
+*.props
