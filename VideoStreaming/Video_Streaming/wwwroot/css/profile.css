@@ -1,0 +1,346 @@
+﻿body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../imgs/BlackBG.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    top: 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+    .navbar-menu input {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .navbar-menu button {
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+.profile-container {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: 0.2s linear;
+}
+
+    .icon:focus ~ .input,
+    .input:focus {
+        box-shadow: none;
+        width: 250px;
+        border-radius: 0px;
+        background-color: transparent;
+        border-bottom: 3px solid #1557c0;
+        transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+    }
+
+
+.profile-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#selectImage {
+    background-color: #00aaff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#selectImage {
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #00b7ff;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+    #selectImage:before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: '';
+        background-color: #00b7ff;
+        z-index: -1;
+    }
+
+    #selectImage:hover, #selectImage:focus {
+        color: white;
+    }
+
+        #selectImage:hover:before, #selectImage:focus:before {
+            transition: 0.5s all ease;
+            left: 0;
+            right: 0;
+            opacity: 1;
+        }
+
+    #selectImage:active {
+        transform: scale(0.9);
+    }
+
+.profile-details {
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+    flex: 1;
+}
+
+input[type="text"], input[type="password"] {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    color: #00aaff;
+    cursor: pointer;
+}
+
+#saveChanges {
+    background-color: #00aaff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.recent-watched, .favorites {
+    width: 50%;
+    margin-top: 20px;
+}
+
+    .recent-watched h3, .favorites h3 {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+        font-family: 'Avalors Personal Use';
+        color: #67ACB6;
+        font-weight: bolder;
+    }
+
+
+.bn39 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 25%;
+    z-index: 2;
+}
+
+    .bn39:hover {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .bn39 .bn39span {
+        align-items: center;
+        background: #0e0e10;
+        font-size: 15px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        width: 100%;
+    }
+
+    .bn39:hover .bn39span {
+        background: transparent;
+        font-size: 15px;
+    }
+
+/* LOGOUT BUTTON */
+.Btn {
+    display: flex;
+    margin-left: 1350px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: rgb(255, 65, 65);
+}
+
+/* plus sign */
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
+
+    .sign svg {
+        width: 17px;
+    }
+
+        .sign svg path {
+            fill: white;
+        }
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+
+    .Btn:hover .sign {
+        width: 30%;
+        transition-duration: .3s;
+        padding-left: 20px;
+    }
+    /* hover effect button's text */
+    .Btn:hover .text {
+        opacity: 1;
+        width: 70%;
+        transition-duration: .3s;
+        padding-right: 10px;
+    }
+/* button click effect*/
+.Btn:active {
+    transform: translate(2px,2px);
+}
