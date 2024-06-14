@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cuteaq\\.nuget\\packages\\": {}
+    "C:\\Users\\Aumar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+      "projectUniqueName": "C:\\Users\\Aumar\\Source\\Repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
       "projectName": "Video_Streaming",
-      "projectPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
-      "packagesPath": "C:\\Users\\cuteaq\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\obj\\",
+      "projectPath": "C:\\Users\\Aumar\\Source\\Repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+      "packagesPath": "C:\\Users\\Aumar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aumar\\Source\\Repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cuteaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
