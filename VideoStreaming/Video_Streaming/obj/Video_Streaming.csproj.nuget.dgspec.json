@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {}
+    "C:\\Users\\silen\\source\\repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {}
   },
   "projects": {
-    "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {
+    "C:\\Users\\silen\\source\\repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+        "projectUniqueName": "C:\\Users\\silen\\source\\repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
         "projectName": "Video_Streaming",
-        "projectPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
-        "packagesPath": "C:\\Users\\cuteaq\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\Video_Streaming\\VideoStreaming\\Video_Streaming\\obj\\",
+        "projectPath": "C:\\Users\\silen\\source\\repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\Video_Streaming.csproj",
+        "packagesPath": "C:\\Users\\silen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\silen\\source\\repos\\Video_Streaming\\VideoStreaming\\Video_Streaming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cuteaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\silen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
