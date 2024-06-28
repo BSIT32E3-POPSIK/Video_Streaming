@@ -1,6 +1,7 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model UserModel
 @{
     ViewData["Title"] = "Login";
 }
@@ -12,11 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/login.css" />
-    <script>
+    @* <script>
         function navigateToMain() {
             window.location.href = '@Url.Action("Main", "Home")';
         }
-    </script>
+    </script> *@
 </head>
 <body>
     <div class="logo-container">
@@ -24,36 +25,46 @@
     </div>
 
     <div class="box">
-        <form>
+        <form asp-controller="Home" asp-action="Login" method="post">
             <div class="title">
                 <h1>Sign In</h1>
             </div>
+
             <div class="input-box">
-                <label for="text" class="label-color">Username</label>
-                <input id="text"
-                       name="text"
+                @* Handles userame inputs *@
+                <label asp-for="Username" class="label-color">Password</label>
+                <input asp-for="Username"
+                       name="username"
                        type="text"
-                       placeholder="Username"
-                       required />
+                       placeholder="Username" />
+                <span asp-validation-for="Username" class="text-danger" />
+
                 <br />
-                <label for="password" class="label-color">Password</label>
-                <input id="password"
+
+                @* Handles password inputs *@
+                <label asp-for="Password" class="label-color">Password</label>
+                <input asp-for="Password"
                        name="password"
                        type="password"
-                       placeholder="Password"
-                       required />
+                       placeholder="Password"/>
+                <span asp-validation-for="Password" class="text-danger"/>
+
                 <br />
-                <input type="submit" class="Signin" value="Sign In" />
+
+                @* Submit *@
+                <input type="submit" class="Signin" value="Sign In">
+
                 <br />
+
                 <p class="link-text">
                     New to Vixen? @Html.ActionLink("Register Here", "Register", "Home")
                 </p>
             </div>
         </form>
     </div>
-    <div>
+    @* <div>
         <button type="button" class="simple-button" onclick="navigateToMain()">TEST</button>
-    </div>
+    </div> *@
 </body>
 </html>
 

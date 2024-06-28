@@ -1,6 +1,7 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model UserModel
 @{
     ViewData["Title"] = "Register";
 }
@@ -19,25 +20,33 @@
     </div>
 
     <div class="box">
-        <form>
+        <form asp-controller="Home" asp-action="Register" method="post">
             <div class="title">
                 <h1>Register Account</h1>
             </div>
             <div class="input-box">
-                <label for="text" class="label-color">Username</label>
-                <input id="text"
-                       name="text"
+                <label asp-for="Username" class="label-color">Username</label>
+                <input asp-for="Username"
+                       name="username"
                        type="text"
                        placeholder="Username"
                        required />
+                <span asp-validation-for="Username"></span>
+
+
                 <br />
-                <label for="password" class="label-color">Password</label>
-                <input id="password"
+
+                <label asp-for="Password" class="label-color">Password</label>
+                <input asp-for="Password"
                        name="password"
                        type="password"
                        placeholder="Password"
                        required />
+                <span asp-validation-for="Password"></span>
+
+                       
                 <br />
+
                 <label for="confirmpassword" class="label-color">Confirm Password</label>
                 <input id="password"
                        name="confirmpassword"
@@ -46,7 +55,11 @@
                        required />
                 <br />
                 <input type="submit" class="Register" value="Register" />
+                <label>@ViewData["Invalid"]</label>
+
                 <br />
+
+
                 <p class="link-text">
                     Already Registered? @Html.ActionLink("Sign In Here", "Login", "Home")
                 </p>

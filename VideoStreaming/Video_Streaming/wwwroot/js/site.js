@@ -92,9 +92,9 @@ $(document).ready(function () {
             }
         });
     });
+
+
 });
-
-
 // This section is forda PROFILE PAGE
 document.addEventListener('DOMContentLoaded', function () {
     const selectImageBtn = document.getElementById('selectImage');
